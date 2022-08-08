@@ -44,7 +44,7 @@ class BMIResultScreen extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text("Gender: ${isMale ? "Male" : "Female"}",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
-                         Text("Height: $height ",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
+                         Text("Height: ${height.toInt()} ",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
                          Text("Weight: $weight ",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
                          Text("Age: $age ",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
                         ],
